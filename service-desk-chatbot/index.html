@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Desk Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Service Desk Chatbot</h1>
+    <br>
+    <h2>Start here</h2>
+    <div id="chatBoxForm"> 
+        <textarea type="text" id="chatBox" placeholder="Enter your question for our virtual assistant"></textarea> 
+        <br>
+        <button id="chatBoxButton">Send</button>
+    </div>
+    <br>
+    <br> 
+    <h2>Still having an issue?</h2>
+    <div id="issueCreationForm">
+        <input type="text" id="fullName" placeholder="Full Name">
+        <input type="text" id="issueTitle" placeholder="Issue Title">
+        <br>
+        <input type="text" id="issueDescription" placeholder="Issue Description">
+        <br>
+        <button id="createIssueButton">Create a new issue</button>
+    </div>
+    <br> 
+    <div id="issueStatusForm"> 
+        <input type="text" id="issueId" placeholder="Issue ID, SDCP-XX format">
+        <br>
+        <button id="issueStatusButton">Get the issue status</button>
+    </div>
+    <script src="app_frontend.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	color: #0aa3fb;
+}
+
+h2 {
+	margin: 0;
+	color: rgb(82, 79, 79) ;
+}
+
+#issueCreationForm {
+	margin-bottom: 10px;
+}
+
+#issueCreationForm input, #issueCreationForm button, #issueStatusForm input, #issueStatusForm button, #chatBoxForm textarea, #chatBoxForm button {
+	padding: 5px;
+	margin: 5px;
+}
+
+#issueCreationForm #issueDescription {
+    width: 380px;
+}
+
+#chatBoxForm #chatBox {
+	height: 180px;
+	width: 393px;
+}
