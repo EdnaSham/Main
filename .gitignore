@@ -1,0 +1,4 @@
+# Ignore the following files and don't include them in git
+client_secret.json
+__pycache__/
+*.pyc
